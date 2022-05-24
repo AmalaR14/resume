@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <style>
+    .container {
+
+width:1080px;
+    margin:0 auto;
+    }
+    .divy{
+        border: 1px dashed black;
+  height:200px;
+                  padding:2px;
+    }
+    #block2{
+    height:70px;
+    }
+    .main{
+      width:60%;
+      float:right;
+      background-color:white;
+    }
+    .bgcolor{
+      height:100%
+      
+    }
+    .sidemenu{
+      width:40%;
+      float:left;
+      height:200px;
+
+    }
+    .clearfix{
+      clear:both;
+    }
+
+    #navbar{
+      color:red;
+
+    }
+          #navbar ul{
+            text-align:center;
+
+            background-color:black;
+            padding:0;
+            margin:0;
+          }
+        #navbar li{
+    display:inline-block;
+          height: 50px;
+          font-size: 18px;
+          line-height:50px;
+          background:blue;
+          min-width:100px;
+        }
+          #navbar a{
+            color:red;
+            text-decoration:none;
+          }
+          .colmain{
+            backgorund-color:blue;
+            width:66%;
+            float:left;
+          }
+          .col1{
+            float:left;
+            background-color:blue;
+            width:50%;
+          }
+          .col2{
+
+            display:inline-block;
+            width:50%;
+          }
+          .col3{
+            float:right;
+            background-color:green;
+            width:34%;
+
+          }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div id="navbar" class="divy">Header</div>
+    <div id="navbar"><ul>
+      <li>
+        <a href="#">Home</a>
+      </li>
+      <li>
+        <a href="#"> About</a>
+      </li>
+      <li>
+        <a href="#"> Services</a>
+      </li>
+      <li>
+        <a href="#"> Contact</a>
+      </li>
+    </ul></div>
+    <div class="bgcolor">
+    <div class="colmain">
+    <div id="block3" class="col1"><div class="divy">Lorem ipsum dolor sit amet. Hic explicabo voluptatem a atque quisquam ut eveniet delectus eum nobis galisum in voluptatem modi qui libero obcaecati. 33 enim rerum quo voluptatem illo ab voluptas laboriosam et saepe maxime qui voluptatem impedit.
+
+A quam recusandae in necessitatibus molestiae ab quibusdam ipsam qui quam vero ex magnam maiores et molestiae quisquam sed molestias voluptates? Id explicabo sapiente non voluptatem deserunt est porro recusandae et eius molestias. Non velit 
+    </div></div>
+    <div id="block4" class=" col2"><div class="divy">Content 2
+    </div></div>
+    </div>
+    <div id="block5" class="col3"><div class="divy">Content 3
+    </div></div> <div class="clearfix"></div>
+        <div id="block7" class="divy clearfix">Footer</div>
+
+  </div>
+</body>
+
+</html>
